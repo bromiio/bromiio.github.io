@@ -77,7 +77,7 @@
               <h3 class="uk-card-title">Projekt 1</h3>
               <p>Beschreibung des Projekts.</p>
             </div>
-          </div
+          </div>
           <div class="uk-width-1-3@m project-item">
             <div class="uk-card uk-card-primary uk-card-hover uk-card-body">
               <h3 class="uk-card-title">Projekt 2</h3>
@@ -192,6 +192,11 @@
 @import url("https://cdn.jsdelivr.net/npm/uikit@3.9.1/dist/css/uikit.min.css");
 @import url("https://fonts.googleapis.com/css2?family=Syne:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Helvetica&display=swap");
+
+
+
+
+
 
 /* Global Styles for Layouts and Fonts */
 :root {
