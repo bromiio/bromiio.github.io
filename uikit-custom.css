@@ -1,0 +1,37 @@
+/* Timeline container */
+.timeline-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  /* Individual timeline block */
+  .timeline-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    opacity: 0; /* Make items invisible initially */
+    transform: translateY(100px); /* Start off screen */
+  }
+
+  /* Timeline heading */
+  .timeline-item h3 {
+    font-size: 24px;
+    color: #333;
+  }
+
+  .timeline-item p {
+    color: #777;
+  }
+
+  /* Timeline item positioning */
+  .timeline-item .uk-grid {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .timeline-item .uk-card-body {
+    background: #f4f4f4;
+    border-radius: 5px;
+  }
