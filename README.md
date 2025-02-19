@@ -187,6 +187,104 @@
 </body>
 
 <style>/* Timeline container */
+
+/* Import UIkit CSS */
+@import url("https://cdn.jsdelivr.net/npm/uikit@3.9.1/dist/css/uikit.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Helvetica&display=swap");
+
+/* Global Styles for Layouts and Fonts */
+:root {
+  --primary-color: #000000;
+  --secondary-color: #d0bcff;
+  --background-color: #f5f5f5;
+  --text-color: #000000;
+
+  --card-background: #ffffff;
+  --font-main: "Helvetica", sans-serif;
+  --font-heading: "Syne", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.uk-heading-small,
+.uk-heading-medium,
+.uk-heading-large {
+  font-family: var(--font-heading); /* Apply Syne to headings */
+  color: red !important;
+}
+
+/* Ensure the font is applied globally */
+html {
+  background: #ff0000;
+  background-image: linear-gradient(
+    270deg,
+    rgb(0, 252, 252) 0%,
+    rgb(52, 255, 255) 100%
+  );
+  -webkit-font-smoothing: antialiased;
+  font-family: var(--font-main); /* Apply default font globally */
+}
+
+.uk-navbar-container {
+  background-color: var(--primary-color);
+}
+
+/* Override UIkit’s default styles with custom values */
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--font-main); /* Ensure body uses Helvetica as default */
+}
+
+.uk-card,
+.uk-button {
+  border-radius: 3vw;
+  transition: 1200ms ease;
+}
+
+.uk-card:hover {
+  border-radius: 6vw;
+}
+
+.uk-card-primary {
+  background-color: var(--primary-color);
+}
+
+.uk-section.uk-section-primary {
+  background-color: var(--primary-color);
+  color: red;
+}
+
+.uk-section-secondary {
+  background-color: rgb(
+    235,
+    235,
+    235
+  ) !important; /* Ensure the background is applied */
+  color: blue !important; /* Ensure text color is applied */
+}
+
+/* You can add specific styles for the .uk-section-secondary class to target it more precisely */
+body .uk-section.uk-section-secondary {
+  background-color: rgb(235, 235, 235) !important;
+  color: blue !important;
+}
+
+.smooth-wrapper {
+  overflow: hidden; /* This is important for the smooth scroll to work */
+}
+.smooth-content {
+  padding: 100px; /* Add some padding to make it scrollable */
+}
+
+
+
+
 .timeline-container {
     max-width: 800px;
     margin: 0 auto;
