@@ -18,10 +18,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
   </head>
 
-  <body class="">
-    <!-- Apply uk-light class here -->
-
-    <!-- Navbar -->
+<body>
     <nav
       class="uk-navbar-container uk-navbar-transparent uk-padding-small"
       uk-navbar
@@ -37,8 +34,6 @@
         </ul>
       </div>
     </nav>
-
-    <!-- Hero Section -->
     <section
       class="uk-section uk-section-primary uk-flex uk-flex-center uk-flex-middle"
       style="height: 80vh"
@@ -72,7 +67,7 @@
       </div>
     </section>
 
-    <section id="projects" class="uk-section uk-section-secondary">
+  <section id="projects" class="uk-section uk-section-secondary">
       <div class="uk-container uk-padding-small">
         <h2 class="uk-heading-small"><span>Meine Projekte</span></h2>
         <div class="uk-grid-small uk-text-center uk-margin-large-top" uk-grid>
@@ -82,33 +77,25 @@
               <h3 class="uk-card-title">Projekt 1</h3>
               <p>Beschreibung des Projekts.</p>
             </div>
-          </div>
-
-          <!-- Second grid item: smaller size -->
+          </div
           <div class="uk-width-1-3@m project-item">
             <div class="uk-card uk-card-primary uk-card-hover uk-card-body">
               <h3 class="uk-card-title">Projekt 2</h3>
               <p>Beschreibung des Projekts.</p>
             </div>
-          </div>
-
-          <!-- First grid item: bigger size -->
+          </div> <!-- First grid item: bigger size -->
           <div class="uk-width-1-3@m project-item">
             <div class="uk-card uk-card-primary uk-card-hover uk-card-body">
               <h3 class="uk-card-title">Projekt 1</h3>
               <p>Beschreibung des Projekts.</p>
             </div>
           </div>
-
-          <!-- Second grid item: smaller size -->
-          <div class="uk-width-2-3@m project-item">
+ <div class="uk-width-2-3@m project-item">
             <div class="uk-card uk-card-primary uk-card-hover uk-card-body">
               <h3 class="uk-card-title">Projekt 2</h3>
               <p>Beschreibung des Projekts.</p>
             </div>
           </div>
-
-            <!-- Third grid item: full width -->
           <div class="uk-width-1-1 project-item">
             <div class="uk-card uk-card-primary uk-card-hover uk-card-body">
               <h3 class="uk-card-title">Projekt 3</h3>
@@ -119,7 +106,7 @@
       </div>
     </section>
 
-    <script>
+ <script>
       // GSAP hover effect for scaling the grid item
       document.querySelectorAll(".project-item").forEach((item) => {
         item.addEventListener("mouseenter", () => {
@@ -142,8 +129,7 @@
       });
     </script>
 
-    <!-- Contact Section -->
-    <section id="contact" class="uk-section uk-section-secondary">
+ <section id="contact" class="uk-section uk-section-secondary">
       <div class="uk-container uk-text-center">
         <h2>Kontakt</h2>
         <p>Schreib mir eine Nachricht!</p>
@@ -154,11 +140,10 @@
     </section>
 
 
-    <div class="timeline-container">
+ <div class="timeline-container">
         <h2 class="uk-heading-small">Meine Berufliche Bahn</h2>
     
-        <!-- Timeline Item 1 -->
-        <div class="timeline-item">
+<div class="timeline-item">
           <div class="uk-grid-small" uk-grid>
             <div class="uk-width-1-4">
               <div class="uk-card uk-card-default uk-card-body">
@@ -171,9 +156,7 @@
             </div>
           </div>
         </div>
-    
-        <!-- Timeline Item 2 -->
-        <div class="timeline-item">
+<div class="timeline-item">
           <div class="uk-grid-small" uk-grid>
             <div class="uk-width-1-4">
               <div class="uk-card uk-card-default uk-card-body">
@@ -186,9 +169,7 @@
             </div>
           </div>
         </div>
-    
-        <!-- Timeline Item 3 -->
-        <div class="timeline-item" role="region" aria-labelledby="timeline-item-2024"></div>
+  <div class="timeline-item" role="region" aria-labelledby="timeline-item-2024"></div>
           <div class="uk-grid-small" uk-grid>
             <div class="uk-width-1-4">
               <div class="uk-card uk-card-default uk-card-body">
@@ -202,9 +183,10 @@
           </div>
         </div>
             </div>
+
+</body>
     
-    
-      <script>
+ <script>
         // Register ScrollTrigger with GSAP
         gsap.registerPlugin(ScrollTrigger);
     
@@ -229,13 +211,10 @@
             ease: "power2.out",
           });
       </script>
+<!-- UIkit JS -->
+ <script src="https://cdn.jsdelivr.net/npm/uikit@3.22.4/dist/js/uikit.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/uikit@3.22.4/dist/js/uikit-icons.min.js"></script>
 
-    <!-- UIkit JS -->
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.22.4/dist/js/uikit.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.22.4/dist/js/uikit-icons.min.js"></script>
 
-
-    <!-- Other Scripts -->
-    <!-- GSAP and required plugins -->
   </body>
 </html>
